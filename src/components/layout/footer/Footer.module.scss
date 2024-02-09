@@ -1,0 +1,82 @@
+.Footer {
+  padding-bottom: 50px;
+  .Content {
+    display: flex;
+    justify-content: center;
+    .Products {
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          list-style: none;
+          font-size: 20px;
+          padding: 5px;
+        }
+        li:hover {
+          color: rgb(186, 177, 7);
+          cursor: pointer;
+        }
+      }
+    }
+    .Learn {
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          list-style: none;
+          font-size: 20px;
+          padding: 5px;
+        }
+        li:hover {
+          color: rgb(186, 177, 7);
+          cursor: pointer;
+        }
+      }
+    }
+    .Support {
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          list-style: none;
+          font-size: 20px;
+          padding: 5px;
+        }
+        li:hover {
+          color: rgb(186, 177, 7);
+          cursor: pointer;
+        }
+      }
+    }
+    .Legal {
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          list-style: none;
+          font-size: 20px;
+          padding: 5px;
+        }
+        li:hover {
+          color: rgb(186, 177, 7);
+          cursor: pointer;
+        }
+      }
+    }
+    .Company {
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          list-style: none;
+          font-size: 20px;
+          padding: 5px;
+        }
+        li:hover {
+          color: rgb(186, 177, 7);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

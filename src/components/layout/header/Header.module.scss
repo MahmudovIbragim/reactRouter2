@@ -1,0 +1,64 @@
+.Header {
+  padding-block: 30px;
+  background-color: #191919;
+
+  .Content {
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-size: 28px;
+          font-weight: 600;
+          color: white;
+        }
+        a:hover {
+          color: rgb(218, 164, 3);
+          text-decoration: revert;
+        }
+        .box {
+          display: flex;
+          gap: 220px;
+          button {
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 13px;
+            border: none;
+          }
+          button {
+            border: none;
+            outline: none;
+            background-color: #422cee;
+            padding: 10px 20px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 5px;
+            transition: all ease 0.1s;
+            box-shadow: 0px 5px 0px 0px #7068e6;
+          }
+
+          button:active {
+            transform: translateY(5px);
+            box-shadow: 0px 0px 0px 0px #756cf0;
+          }
+        }
+        .card {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          h1 {
+            font-size: 32px;
+            color: rgba(214, 183, 6, 0.879);
+          }
+        }
+      }
+    }
+  }
+}
